@@ -85,7 +85,7 @@ fi
 
 if [ "$color_prompt" = yes ]; then
     PROMPT='%(?.%F{#00ff00}➜.%F{#ff0000}➜)%f %B%F{#00ffff}%0~%f%b %F{#6c6c6c}$%f '
-    RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
+    #RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
 
     # enable syntax-highlighting
     if [ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && [ "$color_prompt" = yes ]; then
