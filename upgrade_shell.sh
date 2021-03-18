@@ -1,7 +1,7 @@
 #!/bin/sh
 # Upgrade your dumb netcat shell to a fully functional, coloured normal shell with this handy script. 
 # Run in a seperate window and then return focus to your netcat shell within three seconds.
-# Thanks to @jonasw234 who orginally created this script.
+# Thanks to @jonasw234 who orginally created this script. https://github.com/jonasw234/upgrade-tty
 # Needs a sort of NOP slide because sometimes xdotool would only type after the forth or fifth character
 sleep 3
 xdotool type ' #################'
