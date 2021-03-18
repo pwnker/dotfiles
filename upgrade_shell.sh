@@ -1,6 +1,7 @@
 #!/bin/sh
-# Start this script with a shortcut inside your nc shell to upgrade its functionality to a full pty
-# Commands that are typed on the remote system are prefixed with a space to prevent saving them to history
+# Upgrade your dumb netcat shell to a fully functional, coloured normal shell with this handy script. 
+# Run in a seperate window and then return focus to your netcat shell within three seconds.
+# Thanks to @jonasw234 who orginally created this script.
 # Needs a sort of NOP slide because sometimes xdotool would only type after the forth or fifth character
 sleep 3
 xdotool type ' #################'
