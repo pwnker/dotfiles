@@ -8,8 +8,10 @@ endif
 " plugins
 call plug#begin('~/.vim/plugged')
 
+Plug 'itchyny/lightline.vim'
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'preservim/nerdtree'
 
 call plug#end()
 
@@ -19,3 +21,6 @@ let g:afterglow_use_italics=0
 colorscheme afterglow
 set number
 set termguicolors
+
+" keybinds
+nnoremap <C-t> :NERDTreeToggle<CR>
