@@ -21,7 +21,7 @@ let g:afterglow_use_italics=0
 colorscheme afterglow
 set number
 set termguicolors
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " keybinds
 nnoremap <C-t> :NERDTreeToggle<CR>
